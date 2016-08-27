@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\JsonVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\Ast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\c\GraphQLAst.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\c\GraphQLAstNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\c\GraphQLAstToJSON.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\c\GraphQLAstVisitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\c\GraphQLParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\parser.tab.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\lexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\GraphQLParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\Ast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\AstVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\c\GraphQLAst.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\c\GraphQLAstForEachConcreteType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\c\GraphQLAstVisitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\parser.tab.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\lexer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unistd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\CMakeFiles\a8a8db35f630dc27e280099e8e4ed6d8\Ast.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\CMakeFiles\a8a8db35f630dc27e280099e8e4ed6d8\Ast.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\CMakeFiles\a8a8db35f630dc27e280099e8e4ed6d8\AstVisitor.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\CMakeFiles\ae16ea46131039dfceda6b03b27c93f3\GraphQLAst.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\CMakeFiles\ae16ea46131039dfceda6b03b27c93f3\GraphQLAst.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\dMe\Documents\Repos\libgraphqlparser\CMakeFiles\ae16ea46131039dfceda6b03b27c93f3\GraphQLAstForEachConcreteType.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9B8FD0A9-6AF3-3834-8F62-BBEFF7BE8699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8106FB25-B5FB-3841-BF2D-2B37BBAF2DF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8A75970D-A3F4-3076-B7DD-C0EB4800E5FD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

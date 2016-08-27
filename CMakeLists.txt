@@ -77,8 +77,6 @@ GENERATE_AST_FILE(c_impl c/GraphQLAst.cpp)
 
 GENERATE_AST_FILE(c_visitor_impl c/GraphQLAstForEachConcreteType.h)
 
-ADD_SUBDIRECTORY(python)
-
 OPTION(test "Build tests." OFF)
 
 INSTALL(DIRECTORY c ${CMAKE_CURRENT_BINARY_DIR}/c DESTINATION include/graphqlparser
@@ -99,7 +97,8 @@ INSTALL(FILES
   syntaxdefs.h
   DESTINATION include/graphqlparser)
 INSTALL(TARGETS graphqlparser
-  LIBRARY DESTINATION lib)
+  LIBRARY DESTINATION lib
+  RUNTIME DESTINATION bin)
 
 if (UNIX)
   # generate pkgconfig file
