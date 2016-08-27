@@ -683,11 +683,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ClInclude Include="unistd.h" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="C:/Users/dMe/Documents/Repos/libgraphqlparser/ZERO_CHECK.vcxproj">
-      <Project>7B552DBB-2DC1-3EB2-9D86-64993E5A3332</Project>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
